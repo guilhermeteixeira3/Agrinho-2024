@@ -1,0 +1,119 @@
+/* Estilos Globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://mpagro.com.br/blog/wp-content/uploads/2022/08/20763933-8492-4b08-b05c-72993ac75652.jpg)
+}
+
+/* Barra de Navegação */
+nav {
+    background-color: #4CAF50;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+}
+nav ul li a:hover {
+    background-color: #45a049;
+}
+
+/* Seção Principal */
+.main-section {
+    text-align: center;
+    padding: 20px;
+}
+.hero img {
+    background-color: #ffffffbe;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30%;
+    border-color: black;
+    border-style:solid;
+    border-width: 5px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    margin: 20px 0;
+}
+.hero h1 {
+    background-color: #ffffffbe;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30%;
+    border-color: black;
+    border-style:solid;
+    border-width: 5px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: #4CAF50;
+}
+.content p {
+    background-color: #ffffffbe;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30%;
+    border-color: black;
+    border-style:solid;
+    border-width: 5px;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.2em;
+}
+.content button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+.content button:hover {
+    background-color: #45a049;
+}
+
+/* Formulário de Contato */
+form {
+    background-color: #ffffffbe;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30%;
+    border-color: black;
+    border-style:solid;
+    border-width: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 600px;
+    max-height: 800px;
+    margin: 0 auto;
+}
+form input, form textarea {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+form button:hover {
+    background-color: #45a049;
+}
